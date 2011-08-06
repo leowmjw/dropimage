@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+
+var args = process.argv;
+var configFile = args[2] || '';
+
+console.log(configFile);
